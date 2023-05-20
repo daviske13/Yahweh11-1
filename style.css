@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(160, 223, 232, 0.81);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#current-weather, #forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search-history {
+    text-align: center;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
